@@ -230,7 +230,7 @@ a { color: var(--accent); text-decoration: none; }
   height: 100%;
   max-width: none;
   max-height: none;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 0;
   box-shadow: none;
 }
