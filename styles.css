@@ -218,9 +218,11 @@ a { color: var(--accent); text-decoration: none; }
   box-shadow: 0 12px 30px -8px rgba(0,0,0,0.18);
 }
 
-/* Parsee — App Store hero fills the cell edge-to-edge */
+/* Parsee — App Store hero fills the cell edge-to-edge.
+   Card background matches the hero's own lavender background so any
+   vertical letterboxing is invisible. */
 .app-visual-parsee {
-  background: linear-gradient(135deg, #ece8f7 0%, #d4cdef 100%);
+  background: linear-gradient(180deg, #b9c2e3 0%, #a4afd6 100%);
   padding: 0;
   overflow: hidden;
   min-height: 0;
@@ -233,6 +235,7 @@ a { color: var(--accent); text-decoration: none; }
   object-fit: initial;
   border-radius: 0;
   box-shadow: none;
+  display: block;
 }
 
 /* Safeus — soft green, screenshot centered with rounded corners */
